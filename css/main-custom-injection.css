@@ -1,0 +1,170 @@
+/******************SASS MODIFIED ***********************/
+/***
+Date : Jan 22 2018 
+Web Designer: William L. Carrasca Jr.
+Company: Enggware LTD under Enggsol Engineering Solution
+Email: william@enggware.com 
+Contacts: +639212632325
+Skype: williamcarrascajr
+ ***/
+body {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 14px; }
+
+ul {
+  list-style: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+div,
+ul li,
+a {
+  letter-spacing: inherit !important; }
+
+h1.vc_custom_heading,
+h2.vc_custom_heading,
+h3.vc_custom_heading,
+h4.vc_custom_heading,
+h5.vc_custom_heading {
+  font-family: "Oswald", sans-serif !important; }
+
+p {
+  font-family: "Roboto", sans-serif !important;
+  color: #262626 !important; }
+
+.rounded {
+  border-radius: 7px;
+  -moz-border-radius: 7px; }
+
+* {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.padding-reset {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.padding-left-reset {
+  padding-left: 0 !important; }
+
+.padding-right-reset {
+  padding-right: 0 !important; }
+
+.border-top {
+  border-top: 10px solid #fff !important; }
+
+.big-text p {
+  font-size: 1.3em !important;
+  line-height: 30px;
+  text-align: center; }
+
+.white-text .wx-heading h1, .white-text .wx-heading p {
+  color: #fff !important; }
+
+.white-text .wpb_wrapper ul li {
+  color: #fff !important; }
+  .white-text .wpb_wrapper ul li a {
+    color: #fff !important; }
+
+.white-text .text-image-wrapper a, .white-text .text-image-wrapper span, .white-text .text-image-wrapper div {
+  color: #fff !important; }
+
+.white-text p {
+  color: #fff !important; }
+
+.white-text h1, .white-text h2, .white-text h3, .white-text h4, .white-text h5, .white-text strong {
+  color: #fff !important; }
+
+.wpb_gmaps_widget.wpb_content_element {
+  margin-bottom: 0; }
+  .wpb_gmaps_widget.wpb_content_element div {
+    padding: 0; }
+
+@media only screen and (max-width: 800px) {
+  .vc_empty_space {
+    height: 20px !important; }
+  .vc_empty_space.mobile-space {
+    height: 300px !important; } }
+
+@media only screen and (max-width: 800px) {
+  .mobile-reset-top > div {
+    margin-top: 0 !important; } }
+
+.wpb_wrapper ul li {
+  position: relative;
+  line-height: 24px; }
+  .wpb_wrapper ul li::before {
+    content: "\f00c";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    left: -20px;
+    top: 3px;
+    color: #f36a22 !important; }
+  .wpb_wrapper ul li ul li::before {
+    content: "\f101"; }
+
+.border-top {
+  border-top: 8px solid #fff !important; }
+
+@media only screen and (max-width: 480px) {
+  .tparrows {
+    display: none !important; } }
+
+@media only screen and (max-width: 800px) {
+  .vc_row.wpb_row.mobile-margin,
+  .mobile-margin.wpb_column {
+    margin: 0 !important;
+    padding: 0 !important; } }
+
+/*** Oct16 ****/
+.lg-actions .lg-next:before {
+  content: "\f105" !important;
+  display: inline-block;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.lg-actions .lg-prev:after {
+  content: "\f104" !important;
+  display: inline-block;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.lg-toolbar .lg-download:after {
+  content: "\f019" !important;
+  display: inline-block;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.apply-button-wrapper {
+  text-align: center;
+  padding: 50px 0; }
+  .apply-button-wrapper button {
+    background: #f36a22 !important;
+    color: #fff !important;
+    padding: 10px 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block; }
+    .apply-button-wrapper button:hover {
+      background: #262626 !important; }
